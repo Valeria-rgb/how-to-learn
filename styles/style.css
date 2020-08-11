@@ -55,6 +55,10 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  color: black;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -145,8 +149,8 @@
   display: flex;
   flex-wrap:wrap;
   justify-content: space-between;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
+  padding-left: 0;
 }
 
 .table__cell {
@@ -212,6 +216,10 @@
   text-decoration: none;
 }
 
+.feynman__link:hover {
+  color: #2f80ed;;
+}
+
 .feynman__image {
   width: 867px;
   height: 637px;
@@ -232,11 +240,12 @@
 
 .section-title_theme_dark {
   line-height: 69px;
+  position: relative;
   z-index: 1;
 }
 
 .section-subtitle_theme_dark {
-  margin-bottom: 80px;
+  position: relative;
   z-index: 1;
 }
 
@@ -250,7 +259,8 @@
 .kaufman__triangle {
   width: 877px;
   height: 877px;
-  background-image: url("/Users/valeriashapranova/dev/how-to-learn/images/kaufman-triangle.svg");
+  background-image: url("../images/kaufman-triangle.svg");
+  background-size: contain;
   position: absolute;
   top: 0;
   right: -210px;
@@ -319,6 +329,10 @@
   font-weight: normal;
   color: white;
   text-decoration: none;
+}
+
+.footer__column-link:hover {
+  color: #2f80ed;
 }
 
 .footer__social-icon {
